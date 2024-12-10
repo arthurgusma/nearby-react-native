@@ -1,5 +1,5 @@
 import { Stack } from "expo-router";
-import { colors } from "@//styles/theme";
+import { colors } from "@/styles/theme";
 
 import { 
     useFonts, 
