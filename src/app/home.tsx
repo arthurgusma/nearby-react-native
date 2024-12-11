@@ -10,7 +10,6 @@ export default function Home() {
     async function fetchCategories() {
         try {
            const { data } = await api.get("/categories");
-           console.log(data, "API RESPONSE")
            setCategories(data)
            setSelectedCategory(data[0].id)
         } catch (error) {
