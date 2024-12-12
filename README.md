@@ -17,7 +17,6 @@ Ensure the following tools are installed on your system before proceeding:
 - **Node.js** (>= 18.x recommended)
 - **Yarn** or **npm**
 - **Expo CLI**
-- **Prisma CLI**
 
 ---
 
@@ -28,7 +27,7 @@ Ensure the following tools are installed on your system before proceeding:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/arthurgusma/nearby-react-native.git
    cd nearby
 
 2.	Install dependencies:
