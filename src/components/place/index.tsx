@@ -15,7 +15,7 @@ export type PlaceProps = {
 
 type Props = TouchableOpacityProps & {
     data: PlaceProps
-  }
+}
 
 export default function Place({ data, ...rest }: Props) {
     return (
